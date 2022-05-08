@@ -6,4 +6,4 @@ All trademarks, logos and brand names are the property of their respective owner
 
 <a href="https://www.freepik.com/vectors/freelancer">Freelancer vector created by pch.vector - www.freepik.com</a>
 
-Built using Github Pages
+Built using GitHub Pages

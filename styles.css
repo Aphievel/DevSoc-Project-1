@@ -5,15 +5,16 @@ body {
 }
 .center-text {
 	font-family: "Roboto", sans-serif;
-	font-size: 3.8rem;
+	font-size: 8vmin;
 	color: white;
 	margin-top: 6%;
 }
 .below-center-text {
 	font-family: "Roboto", sans-serif;
+	font-size: 2vmin;
 	color: white;
-	margin-bottom: 5%;
-	margin-top: 3%;
+	margin-bottom: 2vmax;
+	margin-top: 1vmax;
 }
 .sign-up {
 	color: black;
@@ -40,11 +41,11 @@ body {
 }
 .picture {
 	grid-area: picture;
-	place-self: center end;
+	place-self: end center;
 	margin-top: 10%;
 }
 .picture > * {
-	width: 65%;
+	width: 27vmax;
 }
 .logo {
 	display: flex;
@@ -65,9 +66,33 @@ body {
 .big-number {
 	font-family: "Radio Canada", sans-serif;
 	font-size: 3rem;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
 }
 .body-text {
 	color: #ada49d;
+}
+@media screen and (max-width: 480px) {
+	.logo * {
+		width: 20vw;
+	}
+	.below-center-text {
+		margin-bottom: 3vmax;
+		margin-top: 2vmax;
+		font-size: 0.8em;
+	}
+	.sign-up {
+		padding: 5%;
+	}
+	.stats {
+		margin: auto;
+		padding-bottom: 8vh;
+	}
+	.big-number {
+		margin-bottom: 10%;
+	}
+	.body-text {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
