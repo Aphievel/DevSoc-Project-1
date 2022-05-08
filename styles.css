@@ -1,0 +1,73 @@
+body {
+	background-image: linear-gradient(to bottom right, rgb(64, 148, 164), rgba(234, 198, 182, 25));
+	min-height: 100vh;
+	overflow: hidden;
+}
+.center-text {
+	font-family: "Roboto", sans-serif;
+	font-size: 3.8rem;
+	color: white;
+	margin-top: 6%;
+}
+.below-center-text {
+	font-family: "Roboto", sans-serif;
+	color: white;
+	margin-bottom: 5%;
+	margin-top: 3%;
+}
+.sign-up {
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+	padding: 1.5%;
+	border-radius: 3rem;
+	background-color: rgba(235, 200, 181, 25);
+}
+.grid-container {
+	display: grid;
+	grid-template-rows: 50% 10% 40%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas:
+		"text picture"
+		"logo logo"
+		"stats stats";
+}
+.text {
+	grid-area: text;
+	text-align: left;
+	margin-left: 20%;
+}
+.picture {
+	grid-area: picture;
+	place-self: center end;
+	margin-top: 10%;
+}
+.picture > * {
+	width: 65%;
+}
+.logo {
+	display: flex;
+	grid-area: logo;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.logo * {
+	width: 15%;
+}
+.stats {
+	grid-area: stats;
+	background-color: rgba(248, 240, 229, 25);
+	margin: 1% 10% 2% 10%;
+	border-radius: 3rem;
+	text-align: center;
+}
+.big-number {
+	font-family: "Radio Canada", sans-serif;
+	font-size: 3rem;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.body-text {
+	color: #ada49d;
+}
